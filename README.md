@@ -2,15 +2,28 @@
 
 Mobile application to inform the public of national infrastructure issues and to allow users to report such issues.
 
-## Getting Started
+## Requirements
 
-This project is a starting point for a Flutter application.
+Isssue Tracker is a [Flutter](https://flutter.io/) app.
+- Flutter setup:
+  - [Windows](https://flutter.io/setup-windows/)
+  - [Mac](https://flutter.io/setup-macos/)
+  - [Linux](https://flutter.io/setup-linux/)
+- Intellij Flutter Plugin
+  - [Intellij](https://www.jetbrains.com/idea/download/)
+  - [Intellij Flutter plugin](https://flutter.io/intellij-ide/)
+- Ensure that the command line command `flutter doctor` has all that it needs.
 
-A few resources to get you started if this is your first Flutter project:
+## Build and run
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+List the number of available devices
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+    flutter devices
+
+If there is only one device you can run the flutter app using
+
+    flutter run
+
+If there is more than one device run the flutter app using
+
+    flutter run -d <device ID>
